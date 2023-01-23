@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.wp.blocks,t=window.wp.element,n=window.React,c=JSON.parse('{"u2":"react-plugin/counter"}');(0,e.registerBlockType)(c.u2,{edit:function(){const[e,c]=(0,n.useState)(0);return(0,t.createElement)("button",{onClick:()=>c(e+1)},"Clicked me ",e," times!")}})})();
